@@ -1,0 +1,12 @@
+@version 1.5.0
+
+Kind: Solution;
+
+# Here "Libraries" and "Resources" directories are being ignored because it is not a project directory
+IgnoredDirectories: Libraries Resources; 
+
+:OS.LINUX
+IgnoredDirectories: Mandelbrot-DX11;
+
+:OS.MAC
+IgnoredDirectories: Mandelbrot-DX11;
